@@ -1,9 +1,9 @@
-package pages;
+package org.example.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import stepDef.Hooks;
+import org.example.stepDef.Hooks;
 
 import java.util.List;
 

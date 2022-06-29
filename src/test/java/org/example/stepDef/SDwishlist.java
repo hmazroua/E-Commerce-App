@@ -1,4 +1,4 @@
-package stepDef;
+package org.example.stepDef;
 
 import io.cucumber.java.en.When;
 import org.openqa.selenium.By;

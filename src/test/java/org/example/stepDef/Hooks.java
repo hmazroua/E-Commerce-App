@@ -1,4 +1,4 @@
-package stepDef;
+package org.example.stepDef;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -16,7 +16,7 @@ public class Hooks {
     public static void openBrowser()
     {
         // Step 1 : Setting Step Definition
-        String webdriverPath = System.getProperty("user.dir")+ "\\src\\main\\resources\\BrowserDriver\\chromedriver.exe";
+        String webdriverPath = System.getProperty("user.dir")+ "\\src\\main\\resources\\browser\\chromedriver.exe";
         System.setProperty("webdriver.chrome.driver", webdriverPath);
         // Step 2 : Driver Object Creation
         driver = new ChromeDriver();
