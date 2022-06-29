@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="14" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="14" time="0.359">
+<testcase classname="user should be able to login to profile at the website" name="user login with valid data (username, password)" time="0.047">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[When user navigates to login page...........................................undefined
+And user enters "hassan.mazro3a@gmail.com" and "MoYo@123"...................skipped
+Then user clicks login then login is successful.............................skipped
+]]></failure>
+</testcase>
+<testcase classname="guest user shall be able to register to the website" name="guest user navigate to site, fill data and press register" time="0.016">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given guest user go to registration page....................................undefined
+When guest user fill registration data......................................skipped
+And guest user click on register button.....................................skipped
+Then registration success message should appear.............................skipped
+]]></failure>
+</testcase>
+<testcase classname="user could hover categories and select sub category" name="user could hover between categories" time="0">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[When user hovers to main categories and selects sub category................undefined
+]]></failure>
+</testcase>
+<testcase classname="user must be able to switch between currencies USD and Euro" name="user must be able to switch between currencies" time="0.015">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[When user clicks on dropdown list and select euro...........................undefined
+Then user check that items price was changed to Euro........................skipped
+]]></failure>
+</testcase>
+<testcase classname="users can search for products" name="user can search for products" time="0">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[When user navigates to homepage.............................................undefined
+And user clicks on search field in homepage.................................skipped
+Then search result appears on screen........................................skipped
+]]></failure>
+</testcase>
+<testcase classname="users can search for products" name="user can search for product by SKU" time="0">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[When user navigates to homepage to search SKU...............................undefined
+And user clicks on sku search field in homepage.............................skipped
+Then sku search result appears on screen....................................skipped
+]]></failure>
+</testcase>
+<testcase classname="user will be able to choose between sliders in homepage" name="first slider is clickable at homepage" time="0">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[When user clicks on first slider............................................undefined
+Then relative product for first slider is displayed.........................skipped
+]]></failure>
+</testcase>
+<testcase classname="user will be able to choose between sliders in homepage" name="second slider is clickable at homepage" time="0.016">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[When user clicks on second slider...........................................undefined
+Then relative product for second slider is displayed........................skipped
+]]></failure>
+</testcase>
+<testcase classname="user can press on follow us icons" name="user could open site and press follow us on facebook" time="0">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[When user clicks on facebook icon...........................................undefined
+Then facebook is opened in new tab..........................................skipped
+]]></failure>
+</testcase>
+<testcase classname="user can press on follow us icons" name="user could open site and clicks follow us on twitter" time="0">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[When user clicks on twitter icon............................................undefined
+Then twitter is opened in new tab...........................................skipped
+]]></failure>
+</testcase>
+<testcase classname="user can press on follow us icons" name="user could open site and clicks follow us on rss" time="0">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[When user clicks on rss icon................................................undefined
+Then provided link is opened in new tab.....................................skipped
+]]></failure>
+</testcase>
+<testcase classname="user can press on follow us icons" name="user could open site and clicks follow us on youtube" time="0.015">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[When user clicks on youtube icon............................................undefined
+Then youtube is opened in new tab...........................................skipped
+]]></failure>
+</testcase>
+<testcase classname="user can add a product to wishlist" name="success message is visible after adding product to wishlist" time="0">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[When user adds a product to wishlist........................................undefined
+]]></failure>
+</testcase>
+<testcase classname="Add product to shopping cart" name="user could open site add product to shopping cart" time="0">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[When user navigates to products page........................................undefined
+Then user presses on add to shopping cart button............................skipped
+]]></failure>
+</testcase>
+</testsuite>
